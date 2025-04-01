@@ -1,0 +1,100 @@
+/* Background Color */
+body {
+  background-color: #f8f2d9;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Headline */
+h1 {
+  color: #f4a300; 
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+/* Animal component styling */
+.animal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffe400; 
+  border: 2px solid #d17400; 
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for animal component */
+.animal:hover {
+  transform: scale(1.05);
+  background-color: #e0ac00; 
+}
+
+/* Animal name styling */
+.animal h2 {
+  color: #d17400; 
+  font-size: 1.8em;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+/* Animal image styling */
+.animal img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons styling */
+button {
+  background-color: #f4a300; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Focus and Delete button hover effects */
+button:hover {
+  background-color: #d17400; 
+}
+
+/* Button container for spacing */
+.animal div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Optional: Adding a footer for fun */
+footer {
+  margin-top: 50px;
+  font-size: 1.2em;
+  color: #5a4216; 
+  text-align: center;
+}
+/* Styling for the animal images to ensure consistent size */
+.animal img {
+  width: 150px;   
+  height: 150px;  
+  object-fit: cover;  
+  border-radius: 10px;  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
